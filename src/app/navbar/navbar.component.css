@@ -1,0 +1,26 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 45px;
+}
+.nav-link{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.nav-item{
+    font-size: 20px;
+    margin: 0 15px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item:hover{
+    color:aq+ua;
+    text-decoration: underline;
+    
+}
