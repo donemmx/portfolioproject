@@ -1,0 +1,34 @@
+.contact__info{
+    height:60vh;
+    width:60%;
+    margin: auto;
+    
+}
+.contact__head{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.contact__img{
+    height:50vh;
+    width:100%;
+    background-image: url('src/assets/img13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact__details{
+    margin-top: 90px;
+}
+.contact__head .head__four{
+    margin-top: 40px !important;
+    text-align: center;
+}
+.text1 {
+    font-size: clamp(30px, 5vw, 70px);
+    font-weight: 700;
+  }
+.head__four{
+    margin-top: 5px !important;
+}

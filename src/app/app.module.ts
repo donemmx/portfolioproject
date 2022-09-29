@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { ServicesComponent } from './services/services.component';
 import { WorksComponent } from './works/works.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WorksComponent } from './works/works.component';
     NavbarComponent,
     HeroComponent,
     ServicesComponent,
-    WorksComponent
+    WorksComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
