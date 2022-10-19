@@ -10,6 +10,7 @@
 .nav-link{
     display:flex;
     gap: 20px;    
+    align-items: center;
 }
 .logo{
     height: 100%;
@@ -58,4 +59,20 @@
     .nav__mobile{
         display: block;
     }
+}
+
+.btn{
+    height: 45px;
+    padding: 10px 15px;
+    background: #7575755e;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: gold;
+    color: black;
 }

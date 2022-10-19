@@ -70,14 +70,14 @@
 }
 
 span {
-  color: aqua;
+  color: gold;
   margin-right: 25px;
 }
 .btn {
   display: none;
-  border-color: aqua;
+  border-color: gold;
   color: black;
-  background-color: aqua;
+  background-color: gold;
   border: 2px solid rgba(255, 255, 255, 0);
   border-radius: 20px;
   width: fit-content;
@@ -89,9 +89,9 @@ span {
   transition: all 0.3s ease-in-out;
 }
 .designer:hover .btn {
-  border-color: aqua;
+  border-color: gold;
   color: black;
-  background-color: aqua;
+  background-color: gold;
   padding: 10px 30px;
   font-weight: 500;
 }
