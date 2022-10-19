@@ -20,6 +20,15 @@
   height: 40%;
   opacity: 0.1;
 }
+.hero__text2{
+  margin-left: 90px;
+}
+
+.icon{
+  position: absolute;
+  top: 17%;
+  transform: translateY(-50%);
+}
 
 .splash__buttonAnim {
   position: absolute;
@@ -66,6 +75,7 @@
 .text1 {
   font-size: clamp(30px, 5vw, 70px);
   font-weight: 700;
+  position: relative;
 }
 
 p {
@@ -92,10 +102,7 @@ p {
   }
 }
 
-.icon img {
-  object-fit: cover;
-  height: clamp(20px, 5vw, 60px);
-}
+
 
 @media screen and (max-width: 820px) {
   .hero__text {
